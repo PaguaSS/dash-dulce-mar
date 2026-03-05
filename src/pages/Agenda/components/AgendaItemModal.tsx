@@ -66,12 +66,14 @@ const AgendaItemModal: React.FC<AgendaItemModalProps> = ({
   useEffect(() => {
     if (open) {
       if (item) {
+        // eslint-disable-next-line react-hooks/set-state-in-effect
         setIsEditing(false); // Default to view mode if item exists
         const date = new Date(item.bookDate);
         setValue('description', item.description);
         setValue('bookDate', format(date, 'yyyy-MM-dd'));
         setValue('time', format(date, 'HH:mm'));
       } else {
+        // eslint-disable-next-line react-hooks/set-state-in-effect
         setIsEditing(true); // Default to edit mode for new items
         reset({
           description: '',

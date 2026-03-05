@@ -55,7 +55,7 @@ const PrintConfigDialog: React.FC<PrintConfigDialogProps> = ({ open, onClose, it
   // Items that are not part of any merge
   const activeItems = useMemo(() => {
     // Start with all included items
-    let list = items.filter(i => i.isIncluded);
+    const list = items.filter(i => i.isIncluded);
     
     // Filter out items that are already "parent" items of a merge if we ever implement persistence, 
     // but here we just manage the display list.

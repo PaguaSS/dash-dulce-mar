@@ -1,0 +1,667 @@
+{
+  "auth": {
+    "loginTitle": "Dulce Mar Admin",
+    "username": "Username",
+    "email": "Email",
+    "password": "Password",
+    "signIn": "Sign In",
+    "loginFailed": "Login failed"
+  },
+  "common": {
+    "loading": "Loading...",
+    "rowsPerPage": "Rows per page",
+    "noData": "No data found",
+    "createSuccess": "Created successfully",
+    "updateSuccess": "Updated successfully",
+    "deleteSuccess": "Deleted successfully",
+    "createError": "Error creating",
+    "updateError": "Error updating",
+    "deleteError": "Error deleting",
+    "save": "Save",
+    "saving": "Saving...",
+    "cancel": "Cancel",
+    "print": "Print",
+    "close": "Close",
+    "confirm": "Confirm",
+    "goToDate": "Go to date",
+    "delete": "Delete",
+    "edit": "Edit",
+    "duplicate": "Duplicate",
+    "update": "Update",
+    "create": "Create",
+    "actions": "Actions",
+    "back": "Back",
+    "active": "Active",
+    "inactive": "Inactive",
+    "top": "Top",
+    "isTop": "Top Product",
+    "notTop": "Not Top",
+    "markAsTop": "Mark as Top",
+    "removeFromTop": "Remove from Top",
+    "logout": "Logout",
+    "admin": "Admin",
+    "logoAlt": "Dulce Mar Logo",
+    "title": "Title",
+    "description": "Description",
+    "image": "Image",
+    "upload": "Upload Image",
+    "uploadImage": "Upload Image",
+    "invalidImageType": "Invalid file type. Please upload an image.",
+    "imageTooLarge": "Image is too large. Max size is 5MB.",
+    "errorLoading": "Error loading data",
+    "confirmDelete": "Are you sure you want to delete this?",
+    "deleteWarning": "You won't be able to revert this!",
+    "yesDelete": "Yes, delete it",
+    "add": "Add New",
+    "type": "Type",
+    "root": "Root",
+    "today": "Today",
+    "search": "Search",
+    "all": "All",
+    "refresh": "Refresh",
+    "date": "Date",
+    "time": "Time",
+    "messages": {
+      "loginSuccess": "Login successful",
+      "loginFailed": "Login failed",
+      "createSuccess": "User created successfully",
+      "updateSuccess": "User updated successfully",
+      "deleteSuccess": "User deleted successfully",
+      "operationFailed": "Operation failed",
+      "sessionExpired": "Session expired",
+      "unexpectedError": "An unexpected error occurred, please try again or reload the page.",
+      "errorProcessingImage": "Error processing image"
+    }
+  },
+  "socialNets": {
+    "title": "Social Networks",
+    "add": "New Social Network",
+    "edit": "Edit Social Network",
+    "form": {
+      "title": "Title (e.g., WhatsApp)",
+      "profileName": "Profile Name / Number",
+      "src": "Source / Link (Optional)",
+      "config": "Config (JSON)"
+    },
+    "table": {
+      "title": "Title",
+      "profileName": "Profile Name",
+      "src": "Source",
+      "status": "Status"
+    }
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "addCategory": "New Category",
+    "editCategory": "Edit Category",
+    "addItem": "New Item",
+    "editItem": "Edit Item",
+    "search": "Search...",
+    "items": "Items",
+    "categories": "Categories",
+    "parent": "Parent Category",
+    "folder": "Folder",
+    "item": "Item",
+    "recursiveDelete": "Recursive Delete",
+    "deleteTitle": "Delete Item",
+    "deleteRecursiveMessage": "This category contains {{childrenCount}} subcategories and {{itemsCount}} items. Deleting it will remove ALL contents recursively. Are you sure?"
+  },
+  "users": {
+    "title": "User Management",
+    "addUser": "Add User",
+    "editUser": "Edit User",
+    "status": "Status",
+    "createdAt": "Created At",
+    "noUsers": "No users found.",
+    "deleteTitle": "Delete User",
+    "deleteMessage": "Are you sure you want to delete this user? This action cannot be undone.",
+    "passwordHint": "Leave blank to keep current",
+    "activeAccount": "Active Account",
+    "saveUser": "Save User",
+    "saving": "Saving..."
+  },
+  "socialPosts": {
+    "title": "Posts",
+    "create": "Create Post",
+    "new": "New Social Post",
+    "edit": "Edit Social Post",
+    "table": {
+      "dateCreated": "Date Created",
+      "content": "Content",
+      "media": "Media",
+      "scheduledFor": "Scheduled For",
+      "status": "Status",
+      "actions": "Actions",
+      "noPosts": "No posts found."
+    },
+    "form": {
+      "content": "Post Content",
+      "contentPlaceholder": "What's on your mind?",
+      "mediaType": "Media Type",
+      "mediaUrl": "Media URL",
+      "mediaUrlPlaceholder": "https://...",
+      "schedule": "Schedule For (Optional)",
+      "save": "Save",
+      "saving": "Saving...",
+      "mediaTypes": {
+        "none": "None",
+        "image": "Image",
+        "video": "Video"
+      },
+      "scheduleType": "Action",
+      "scheduleTypes": {
+        "draft": "Save as Draft",
+        "now": "Post Now",
+        "schedule": "Schedule"
+      },
+      "uploadMedia": "Upload Media",
+      "preview": "Media Preview",
+      "removeMedia": "Remove Media",
+      "selectNetworks": "Select Networks"
+    },
+    "status": {
+      "draft": "DRAFT",
+      "scheduled": "SCHEDULED",
+      "published": "PUBLISHED",
+      "failed": "FAILED"
+    },
+    "messages": {
+      "confirmPublish": "Are you sure you want to publish this post immediately?",
+      "postPublished": "Post published!",
+      "publishFailed": "Failed to publish",
+      "loadFailed": "Failed to load posts",
+      "mustProvideContent": "Must provide either text content or media",
+      "selectNetwork": "At least one network must be selected",
+      "scheduled": "Post Scheduled!",
+      "draftCreated": "Draft Created!",
+      "createError": "Error creating post"
+    },
+    "tooltips": {
+      "publishNow": "Publish Now",
+      "image": "Image",
+      "video": "Video"
+    }
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "users": "Users",
+    "portfolio": "Portfolio",
+    "agenda": "Agenda",
+    "website": "Website"
+  },
+  "calculatorProducts": {
+    "title": "Calculator",
+    "subtitle": "Manage dessert categories, options and pricing for the website calculator",
+    "tabs": {
+      "categories": "Categories",
+      "options": "Options",
+      "pricing": "Pricing",
+      "mainProducts": "Main Products"
+    },
+    "category": {
+      "name": "Name",
+      "slug": "Slug",
+      "description": "Description",
+      "icon": "Icon",
+      "portionType": "Portion Type",
+      "minPortions": "Min Portions",
+      "maxPortions": "Max Portions",
+      "fixedOptions": "Fixed Options",
+      "sortOrder": "Order"
+    },
+    "option": {
+      "name": "Name",
+      "slug": "Slug",
+      "type": "Type",
+      "priceModifier": "Price Modifier",
+      "isPercentage": "Is Percentage",
+      "conditions": "Conditions",
+      "sortOrder": "Order"
+    },
+    "pricing": {
+      "basePrice": "Base Price",
+      "pricePerPortion": "Price per Portion",
+      "currency": "Currency"
+    },
+    "portionTypes": {
+      "fixed": "Fixed",
+      "range": "Range",
+      "unit": "Unit"
+    },
+    "optionTypes": {
+      "FLAVOR": "Flavor",
+      "TYPE": "Type",
+      "BASE": "Base",
+      "FILLING": "Filling",
+      "COVERING": "Covering",
+      "PRODUCT": "Product"
+    },
+    "mainProducts": {
+      "title": "Main Product Options",
+      "description": "Manage main product options and their customizations. Mark options as main products in the Options tab.",
+      "isMainProduct": "Main Product",
+      "customizations": "Customizations",
+      "selectCustomizations": "Select Customizations",
+      "noCustomizations": "No customizations assigned",
+      "assignedCustomizations": "Assigned Customizations",
+      "availableCustomizations": "Available Customizations",
+      "noAvailableCustomizations": "No options available as customizations",
+      "manageCustomizations": "Manage Customizations",
+      "noMainProducts": "No main product options found",
+      "noMainProductsHint": "Mark options as 'Main Product' in the Options tab to see them here",
+      "removeMainProduct": "Remove Main Product Status",
+      "removeMainProductTitle": "Remove Main Product Status",
+      "removeMainProductMessage": "This will remove the main product status and all associated customizations. Are you sure?"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "nextEvent": "Next Event",
+    "today": "Today!",
+    "tomorrow": "Tomorrow",
+    "daysUntil": "In {{count}} days",
+    "noEventsThisMonth": "No upcoming events this month",
+    "viewAgenda": "View Agenda"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "enableReminders": "Enable event reminders",
+    "description": "Receive reminders 1 week, 3 days, and 6 hours before events",
+    "blocked": "Notifications are blocked. Enable them in your browser settings.",
+    "subscribed": "Notifications enabled",
+    "unsubscribed": "Notifications disabled",
+    "permissionDenied": "Notification permission denied",
+    "testSent": "Test notification sent",
+    "testFailed": "Failed to send test notification",
+    "sendTest": "Send Test Notification"
+  },
+  "ingredients": {
+    "title": "Ingredients Management",
+    "entity": "Ingredient",
+    "subtitle": "Manage your ingredients and units of measurement",
+    "tab": {
+      "ingredients": "Ingredients",
+      "metrics": "Units (Metrics)",
+      "brands": "Brands"
+    },
+    "table": {
+      "name": "Name",
+      "price": "Price",
+      "metric": "Unit"
+    },
+    "form": {
+      "name": "Ingredient Name",
+      "price": "Price per Unit",
+      "metric": "Unit of Measurement",
+      "brand": "Brand",
+      "isPackagePrice": "Calculate from Package",
+      "packagePrice": "Package Price",
+      "packageQty": "Package Quantity",
+      "packageMetric": "Package Unit",
+      "calculating": "Calculating price...",
+      "conversionFailed": "Conversion failed. Please enter the price manually."
+    }
+  },
+  "brands": {
+    "title": "Brands",
+    "entity": "Brand",
+    "table": {
+      "name": "Name"
+    },
+    "form": {
+      "name": "Brand Name"
+    }
+  },
+  "metrics": {
+    "title": "Units of Measurement",
+    "entity": "Unit",
+    "table": {
+      "title": "Title",
+      "abbrv": "Abbreviation"
+    },
+    "form": {
+      "title": "Unit Name",
+      "abbrv": "Abbreviation (e.g. kg)"
+    }
+  },
+  "validation": {
+    "required": "This field is required",
+    "minValue": "Value must be at least {{min}}"
+  },
+  "recipes": {
+    "title": "Recipes",
+    "subtitle": "Manage your recipes and their items",
+    "create": "Create Recipe",
+    "edit": "Edit Recipe",
+    "details": "Recipe Details",
+    "table": {
+      "title": "Title",
+      "itemsCount": "Items",
+      "createdAt": "Created At"
+    },
+    "form": {
+      "title": "Recipe Name",
+      "servings": "Servings",
+      "items": "Recipe Items",
+      "addItem": "Add Item",
+      "removeItem": "Remove",
+      "name": "Item Name",
+      "metric": "Unit",
+      "qty": "Quantity",
+      "price": "Price",
+      "ingredient": "Linked Ingredient (Optional)"
+    },
+    "messages": {
+      "createSuccess": "Recipe created successfully",
+      "updateSuccess": "Recipe updated successfully",
+      "deleteSuccess": "Recipe deleted successfully",
+      "deleteConfirm": "Are you sure you want to delete this recipe?",
+      "noRecipes": "No recipes found."
+    }
+  },
+  "agenda": {
+    "title": "Agenda",
+    "details": "Event Details",
+    "edit": "Edit Event",
+    "add": "Add Event",
+    "uploadFile": "Upload File",
+    "attachments": "Attachments",
+    "description": "Description",
+    "confirmDelete": "Delete Event",
+    "deleteMessage": "Are you sure you want to delete this event? This action cannot be undone.",
+    "createSuccess": "Event created successfully",
+    "updateSuccess": "Event updated successfully",
+    "deleteSuccess": "Event deleted successfully",
+    "itemDeleteSuccess": "File deleted successfully",
+    "saveError": "Error saving event",
+    "deleteError": "Error deleting",
+    "loadError": "Error loading agenda",
+    "views": {
+      "day": "Day",
+      "week": "Week",
+      "month": "Month"
+    }
+  },
+  "calculatorParams": {
+    "title": "Calculator Settings",
+    "gasPricePerLt": "Gas Price per Litre",
+    "averageKmPerLitre": "Average Km per Litre",
+    "bakerPayPerHour": "Baker Pay per Hour",
+    "driverPayPerHour": "Driver Pay per Hour",
+    "waterPricePerLitre": "Water Price per Litre",
+    "bakePricePerMin": "Bake Price per Min",
+    "crFee": "CR Fee",
+    "businessName": "Business Name",
+    "location": "Location",
+    "phone": "Phone Number"
+  },
+  "quotations": {
+    "title": "Quotations",
+    "subtitle": "Manage your quotations and cost calculations",
+    "entity": "Quotation",
+    "create": "Create Quotation",
+    "edit": "Edit Quotation",
+    "noItems": "No items added yet. Click 'Add Item' to start.",
+    "table": {
+      "description": "Description",
+      "client": "Client",
+      "items": "Items",
+      "total": "Total",
+      "createdAt": "Created",
+      "type": "Type",
+      "name": "Name",
+      "qty": "Qty",
+      "metric": "Unit",
+      "unitPrice": "Unit Price",
+      "subtotal": "Subtotal"
+    },
+    "form": {
+      "details": "Quotation Details",
+      "description": "Description",
+      "client": "Client",
+      "taxRate": "Tax %",
+      "profitMargin": "Profit %",
+      "items": "Items",
+      "addItem": "Add Item",
+      "itemType": "Item Type",
+      "itemName": "Item Name",
+      "selectRecipe": "Select Recipe",
+      "selectIngredient": "Select Ingredient",
+      "addVariableCost": "Add Variable Cost",
+      "addCustomItem": "Add Custom Item"
+    },
+    "itemTypes": {
+      "RECIPE": "Recipe",
+      "INGREDIENT": "Ingredient",
+      "CUSTOM": "Custom",
+      "UTILITY": "Utility",
+      "LABOR": "Labor",
+      "DELIVERY": "Delivery",
+      "WATER": "Water",
+      "BAKE_TIME": "Bake Time"
+    },
+    "variableCosts": {
+      "bakerPay": "Baker Pay",
+      "driverPay": "Driver Pay",
+      "delivery": "Delivery",
+      "bakeTime": "Bake Time",
+      "water": "Water"
+    },
+    "metrics": {
+      "unit": "unit",
+      "hours": "hours",
+      "minutes": "min",
+      "liters": "liters"
+    },
+    "totals": {
+      "subtotal": "Subtotal",
+      "tax": "Tax",
+      "profit": "Profit",
+      "total": "Total"
+    },
+    "noRows": "No quotations found",
+    "errors": {
+      "noItems": "Please add at least one item"
+    }
+  },
+  "clients": {
+    "title": "Clients",
+    "subtitle": "Manage your clients",
+    "entity": "Client",
+    "table": {
+      "name": "Name",
+      "lastname": "Last Name",
+      "phone": "Phone",
+      "email": "Email"
+    },
+    "form": {
+      "name": "Name",
+      "lastname": "Last Name",
+      "phone": "Phone",
+      "email": "Email"
+    }
+  },
+  "webContent": {
+    "title": "Website Content",
+    "subtitle": "Manage your website content and translations",
+    "translatableContent": "Text Content",
+    "mediaContent": "Media & URLs",
+    "preview": "Preview",
+    "tabs": {
+      "hero": "Hero Section",
+      "home": "Navigation Cards",
+      "topCakes": "Top Cakes",
+      "about": "About Us",
+      "footer": "Footer"
+    },
+    "about": {
+      "addSection": "Add Section",
+      "section": "Section",
+      "alignment": "Image Alignment",
+      "left": "Left",
+      "right": "Right",
+      "sectionTitle": "Section Title",
+      "sectionContent": "Section Content",
+      "anchor": "Anchor (ID)",
+      "anchorHint": "Used for internal navigation (e.g. #our-history)",
+      "noSections": "No sections configured. Click Add to begin."
+    },
+    "hero": {
+      "title": "Hero Section",
+      "mainTitle": "Main Title",
+      "subtitle": "Subtitle",
+      "video": "Background Video",
+      "uploadVideo": "Upload Video",
+      "videoHint": "Upload a video file (max 100MB). Leave empty to show image instead.",
+      "videoUploaded": "Video uploaded successfully",
+      "videoRemoved": "Video removed",
+      "videoUploadError": "Error uploading video",
+      "videoRemoveError": "Error removing video",
+      "invalidVideoType": "Please select a video file",
+      "videoTooLarge": "Video must be less than 100MB",
+      "heroImage": "Hero Image",
+      "uploadImage": "Upload Image",
+      "imageHint": "Upload an image file (max 10MB)",
+      "imageUploaded": "Image uploaded successfully",
+      "imageRemoved": "Image removed",
+      "imageUploadError": "Error uploading image",
+      "imageRemoveError": "Error removing image",
+      "invalidImageType": "Please select an image file",
+      "imageTooLarge": "Image must be less than 10MB",
+      "backgroundImage": "Background Image",
+      "buttons": "Action Buttons",
+      "addButton": "Add Button",
+      "buttonText": "Button Text",
+      "buttonUrl": "Button URL",
+      "buttonVariant": "Style",
+      "variants": {
+        "primary": "Primary",
+        "outline": "Outline"
+      }
+    },
+    "home": {
+      "buttons": {
+        "title": "Hero Buttons",
+        "cta_order": "Primary Button (Place Order)",
+        "cta_menu": "Secondary Button (View Menu)"
+      },
+      "actions": {
+        "title": "Actions Title",
+        "subtitle": "Actions Subtitle"
+      },
+      "social": {
+        "title": "Social Title",
+        "description": "Social Description"
+      },
+      "portfolio": {
+        "title": "Portfolio Title",
+        "description": "Portfolio Description",
+        "cta": "Portfolio Button"
+      },
+      "calculator": {
+        "title": "Calculator Title",
+        "description": "Calculator Description",
+        "cta": "Calculator Button"
+      }
+    },
+    "topCakes": {
+      "title": "Top Cakes Section",
+      "badge": "Badge Text",
+      "sectionTitle": "Section Title",
+      "sectionSubtitle": "Section Subtitle",
+      "cakesList": "Featured Items",
+      "noTopItems": "No items marked as 'Top' in the portfolio. Go to Portfolio to mark items as top products.",
+      "readOnlyInfo": "This section displays portfolio items marked as 'Top' and 'Active'. To manage which items appear here, go to Portfolio and toggle the star icon on items.",
+      "manageInPortfolio": "Manage featured items in Portfolio > Items"
+    },
+    "footer": {
+      "title": "Footer Section",
+      "tagline": "Tagline",
+      "brandDescription": "Brand Description",
+      "columns": "Navigation Columns",
+      "addColumn": "Add Column",
+      "columnTitle": "Column Title",
+      "links": "Links",
+      "addLink": "Add Link",
+      "linkLabel": "Label",
+      "linkUrl": "URL",
+      "isExternal": "Open in new tab",
+      "noLinks": "No links. Click 'Add Link' to add one.",
+      "noColumns": "No columns. Click 'Add Column' to start.",
+      "socialLinks": "Social Networks",
+      "addSocial": "Add Social",
+      "platform": "Platform",
+      "socialUrl": "Profile URL",
+      "noSocials": "No social links. Click 'Add Social' to add one."
+    }
+  },
+  "richEditor": {
+    "bold": "Bold",
+    "italic": "Italic",
+    "bulletList": "Bullet List",
+    "orderedList": "Numbered List"
+  },
+  "accounting": {
+    "title": "Sales & Invoicing",
+    "subtitle": "Manage your invoices and sales reports",
+    "create": "Create Invoice",
+    "edit": "Edit Invoice",
+    "createFromQuotation": "Invoice Quotation",
+    "noRows": "No invoices found",
+    "table": {
+      "serialNumber": "Invoice N°",
+      "included": "Incl.",
+      "description": "Description",
+      "client": "Client",
+      "total": "Total",
+      "paymentMethod": "Payment",
+      "source": "Channel",
+      "createdAt": "Date",
+      "name": "Item",
+      "qty": "Qty",
+      "unitPrice": "Unit Price",
+      "subtotal": "Subtotal"
+    },
+    "form": {
+      "details": "Invoice Details",
+      "description": "Description",
+      "client": "Client",
+      "paymentMethod": "Payment Method",
+      "source": "Sales Channel",
+      "linkedQuotation": "Linked Quotation",
+      "items": "Sales Detail",
+      "print": "Print Invoice",
+      "customPrint": "Custom Print Setup",
+      "printSetup": "Items Merging Setup",
+      "mergeSelected": "Merge Selected",
+      "mergedName": "Merged Name",
+      "unmerge": "Unmerge",
+      "preview": "Print Preview",
+      "thanks": "Thank you for your purchase!"
+    },
+    "paymentMethods": {
+      "CASH": "Cash",
+      "CREDIT_CARD": "Credit Card",
+      "SINPE": "SINPE Móvil",
+      "PAYPAL": "PayPal"
+    },
+    "sources": {
+      "FACEBOOK": "Facebook",
+      "INSTAGRAM": "Instagram",
+      "TIKTOK": "TikTok",
+      "WEBSITE": "Website",
+      "DASHBOARD": "Direct"
+    },
+    "totals": {
+      "summary": "Totals Summary",
+      "subtotal": "Subtotal",
+      "tax": "Tax",
+      "profit": "Profit",
+      "total": "Total Amount"
+    },
+    "cards": {
+      "totalSales": "Total Sales",
+      "byPaymentMethod": "Sales by Payment Method"
+    }
+  }
+}

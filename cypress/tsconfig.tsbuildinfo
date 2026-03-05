@@ -1,0 +1,1 @@
+{"root":["./e2e/accounting.cy.ts","./e2e/calculator-params.cy.ts","./e2e/calculator-products.cy.ts","./e2e/clients.cy.ts","./e2e/ingredients.cy.ts","./e2e/portfolio.cy.ts","./e2e/quotations.cy.ts","./e2e/recipes.cy.ts","./support/e2e.ts"],"version":"5.9.3"}

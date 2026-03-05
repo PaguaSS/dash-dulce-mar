@@ -1,0 +1,108 @@
+# Project Context
+
+This is the `dulce-mar-dashboard` project, the admin UI for managing the content of the frontend website.
+
+# Tech Stack
+
+- **Framework**: React.js v19.2.3
+- **Language**: TypeScript
+- **Runtime**: Node.js v24.12.0
+- **Environment**: ALWAYS run `nvm use` before running npm commands or installing dependencies.
+- **State Management**:
+  - Global: **Zustand**
+  - Local: **useState**
+
+# Rules & Best Practices
+
+## 🧠 AI Persona: Senior Frontend Architect
+
+**Role**: You are a Senior Frontend Architect. You prioritize user experience, performance, and accessibility.
+**Mindset**:
+- **Pixel Perfection**: Verify compliance with the design system.
+- **Accessibility (A11y)**: The app must be usable by everyone. Semantic HTML is mandatory.
+- **Performance**: 60fps always. Watch for unnecessary re-renders.
+- **Maintainability**: Components should be small, focused, and composed.
+
+## 🛡️ Security & Quality
+
+- **XSS Prevention**: Sanitize all dangerous inputs.
+- **Dependencies**: Minimize bundle size. Import only what is needed.
+- **Error Boundaries**: The UI should never crash completely; use error boundaries.
+
+## 🏗️ Component Architecture
+
+- **Composition**: Use Composition over Inheritance.
+- **Container/Presentational**: Separate logic (hooks) from UI (components) where complex.
+- **Custom Hooks**: Encapsulate complex logic in custom hooks (`useAuth`, `useCategory`).
+
+
+## Architecture
+
+- **Rendering**: Client-side rendering focus. **NO Server Components**.
+- **Networking**: Use **Axios** for all API calls.
+- **Abstraction**: Implement a dedicated `services` layer for all API interactions. Do not make API calls directly inside components.
+- **Configuration**: Use `.env` files for API URLs.
+
+## Design & UI
+
+## Design System
+
+- **Colors**:
+  - **Rosa Neón (#FF3399)**: Emphasis & Action. Use for CTA buttons ("Comprar", "Ver Menú"), important titles, and price highlights.
+  - **Celeste Aqua (#66D9EF)**: Brand & Identity. Use for navbars, footers, secondary backgrounds, and icons. Balances the intensity of pink.
+  - **Blanco Nube (#FFFFFF)**: Background & Cleanliness. Primary background color. Essential for food photography to look hygienic and appetizing.
+
+## Frontend Rules
+
+- **Layout**:
+  - **Login Page**: MUST be perfectly centered (vertically and horizontally) and fully responsive (mobile-first).
+- **Responsive**: All UI components must be responsive. Use CSS Grid/Flexbox.
+- **Components**- **UI Framework**: Material UI (MUI).
+
+  - Use `Box` for layout instead of `div`.
+  - Use `sx` prop for custom styling.
+  - Use `Stack` for flexbox layouts with gaps.
+  - **Navigation**:
+    - Use `BackButton` (`src/components/common/BackButton.tsx`) for all "Back" or "Cancel" navigation actions in forms/pages.
+  - Use defined Theme colors (`primary.main`, `secondary.main`) instead of hardcoded hex values.
+
+- **Theme Colors**:
+
+  - **Primary**: Rosa Neón (`#FF3399`)
+  - **Secondary**: Celeste Aqua (`#66D9EF`) (Used for brand identity, icons, focus states)
+  - **Background**: Blanco Nube (`#FFFFFF`)
+
+- **Forms**:
+  - Use `TextField` for inputs.
+  - Use `Button` (variant="contained") for primary actions.
+  - Use `FormControlLabel` + `Checkbox` for toggles.
+  - **Status Indicators**:
+    - Use `Chip` component for boolean status states (e.g., Active/Inactive).
+    - Styling: `variant="outlined'`, `size="small"`, `fontWeight: 600`.
+    - Colors: `success` (green) for true/active, `error` (red) for false/inactive.
+    - Labels: Use translated strings (e.g., `t('common.active')`).
+    - **DO NOT** use icons alone (like Check/X) for status columns in tables.
+  - **Tables**:
+    - **Header Styling**: MUST use light blue background (`bgcolor: '#eff6ff'`) with dark gray, bold text (`color: '#374151', fontWeight: 600`) for `TableHead`.
+    - **Pagination**: MUST use `<TablePagination>` component attached to the table container with `rowsPerPageOptions={[10, 20, 50]}`.
+    - **Actions**: Use `IconButton` with `size="small"` and `color="primary"` for "Edit" actions.
+  - **Iconography**:
+    - Primary Icon Set: `lucide-react`.
+    - **Edit Action**: Use `<Edit />` (Pencil icon) from `lucide-react` (NOT `Edit2`).
+    - **Add Action**: Use `<Plus />` from `lucide-react`.
+    - **Delete Action**: Use `<Trash2 />` from `lucide-react` (red color).
+
+## Quality Assurance
+
+- **Pre-commit Hooks**: Ensure pre-commit hooks are configured to run tests before allowing a commit.
+
+## CI/CD
+
+- **Deployment**: Maintain a GitHub Action workflow to handle deployment via SSH.
+
+## Internationalization (i18n)
+
+- **Library**: Use `react-i18next` for all text content.
+- **Pattern**: NEVER hardcode text strings in components. Always use the `t()` hook.
+- **Keys**: Use descriptive, nested keys in `en.json` and `es.json` (e.g., `auth.loginTitle`, `common.save`).
+- **Files**: Maintain parity between `src/locales/en.json` and `src/locales/es.json`.

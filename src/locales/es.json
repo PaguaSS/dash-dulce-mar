@@ -1,0 +1,668 @@
+{
+  "auth": {
+    "loginTitle": "Dulce Mar Admin",
+    "username": "Usuario",
+    "email": "Correo Electrónico",
+    "password": "Contraseña",
+    "signIn": "Iniciar Sesión",
+    "loginFailed": "Error de inicio de sesión"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "rowsPerPage": "Filas por página",
+    "noRows": "Sin datos para mostrar",
+    "noResults": "No se encontraron resultados",
+    "noData": "No se encontraron datos",
+    "createSuccess": "Creado exitosamente",
+    "updateSuccess": "Actualizado exitosamente",
+    "deleteSuccess": "Eliminado exitosamente",
+    "createError": "Error al crear",
+    "updateError": "Error al actualizar",
+    "deleteError": "Error al eliminar",
+    "save": "Guardar",
+    "saving": "Guardando...",
+    "cancel": "Cancelar",
+    "print": "Imprimir",
+    "close": "Cerrar",
+    "confirm": "Confirmar",
+    "goToDate": "Ir a fecha",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "duplicate": "Duplicar",
+    "update": "Actualizar",
+    "create": "Crear",
+    "actions": "Acciones",
+    "back": "Volver",
+    "active": "Activo",
+    "inactive": "Inactivo",
+    "top": "Top",
+    "isTop": "Producto Top",
+    "notTop": "No es Top",
+    "markAsTop": "Marcar como Top",
+    "removeFromTop": "Quitar de Top",
+    "logout": "Cerrar Sesión",
+    "admin": "Admin",
+    "logoAlt": "Logo Dulce Mar",
+    "title": "Título",
+    "description": "Descripción",
+    "image": "Imagen",
+    "upload": "Subir Imagen",
+    "uploadImage": "Subir Imagen",
+    "invalidImageType": "Tipo de archivo inválido. Por favor sube una imagen.",
+    "imageTooLarge": "La imagen es demasiado grande. Máximo 5MB.",
+    "errorLoading": "Error al cargar datos",
+    "confirmDelete": "¿Estás seguro de que deseas eliminar esto?",
+    "deleteWarning": "¡No podrás revertir esto!",
+    "yesDelete": "Sí, eliminarlo",
+    "add": "Agregar Nuevo",
+    "type": "Tipo",
+    "root": "Raíz",
+    "today": "Hoy",
+    "search": "Buscar",
+    "all": "Todos",
+    "refresh": "Actualizar",
+    "date": "Fecha",
+    "time": "Hora",
+    "messages": {
+      "loginSuccess": "Inicio de sesión exitoso",
+      "loginFailed": "Error de inicio de sesión",
+      "createSuccess": "Usuario creado exitosamente",
+      "updateSuccess": "Usuario actualizado exitosamente",
+      "deleteSuccess": "Usuario eliminado exitosamente",
+      "operationFailed": "Operación fallida",
+      "sessionExpired": "Sesión expirada",
+      "unexpectedError": "Sucedió un error inesperado, intente de nuevo o recargue la página.",
+      "errorProcessingImage": "Error al procesar la imagen"
+    }
+  },
+  "socialNets": {
+    "title": "Redes Sociales",
+    "add": "Nueva Red Social",
+    "edit": "Editar Red Social",
+    "form": {
+      "title": "Título (ej. WhatsApp)",
+      "profileName": "Nombre de Perfil / Número",
+      "src": "Fuente / Enlace (Opcional)",
+      "config": "Configuración (JSON)"
+    },
+    "table": {
+      "title": "Título",
+      "profileName": "Nombre de Perfil",
+      "src": "Fuente",
+      "status": "Estado"
+    }
+  },
+  "portfolio": {
+    "title": "Portafolio",
+    "addCategory": "Nueva Categoría",
+    "editCategory": "Editar Categoría",
+    "addItem": "Nuevo Ítem",
+    "editItem": "Editar Ítem",
+    "search": "Buscar...",
+    "items": "Ítems",
+    "categories": "Categorías",
+    "parent": "Categoría Padre",
+    "folder": "Carpeta",
+    "item": "Ítem",
+    "recursiveDelete": "Eliminación Recursiva",
+    "deleteTitle": "Eliminar Ítem",
+    "deleteRecursiveMessage": "Esta categoría contiene {{childrenCount}} subcategorías y {{itemsCount}} ítems. Eliminarla borrará TODO el contenido recursivamente. ¿Estás seguro?"
+  },
+  "users": {
+    "title": "Gestión de Usuarios",
+    "addUser": "Agregar Usuario",
+    "editUser": "Editar Usuario",
+    "status": "Estado",
+    "createdAt": "Fecha de Creación",
+    "noUsers": "No se encontraron usuarios.",
+    "deleteTitle": "Eliminar Usuario",
+    "deleteMessage": "¿Estás seguro de que deseas eliminar este usuario? Esta acción no se puede deshacer.",
+    "passwordHint": "Dejar en blanco para mantener la actual",
+    "activeAccount": "Cuenta Activa",
+    "saveUser": "Guardar Usuario",
+    "saving": "Guardando..."
+  },
+  "socialPosts": {
+    "title": "Publicaciones en Redes",
+    "create": "Crear Publicación",
+    "new": "Nueva Publicación",
+    "edit": "Editar Publicación",
+    "table": {
+      "dateCreated": "Fecha de Creación",
+      "content": "Contenido",
+      "media": "Multimedia",
+      "scheduledFor": "Programado Para",
+      "status": "Estado",
+      "actions": "Acciones",
+      "noPosts": "No se encontraron publicaciones."
+    },
+    "form": {
+      "content": "Contenido",
+      "contentPlaceholder": "¿Qué estás pensando?",
+      "mediaType": "Tipo de Multimedia",
+      "mediaUrl": "URL Multimedia",
+      "mediaUrlPlaceholder": "https://...",
+      "schedule": "Programar Para (Opcional)",
+      "save": "Guardar ",
+      "saving": "Guardando...",
+      "mediaTypes": {
+        "none": "Ninguno",
+        "image": "Imagen",
+        "video": "Video"
+      },
+      "scheduleType": "Acción",
+      "scheduleTypes": {
+        "draft": "Guardar como Borrador",
+        "now": "Publicar Ahora",
+        "schedule": "Programar"
+      },
+      "uploadMedia": "Subir Archivo",
+      "preview": "Vista Previa",
+      "removeMedia": "Eliminar Archivo",
+      "selectNetworks": "Seleccionar Redes"
+    },
+    "status": {
+      "draft": "BORRADOR",
+      "scheduled": "PROGRAMADO",
+      "published": "PUBLICADO",
+      "failed": "FALLIDO"
+    },
+    "messages": {
+      "confirmPublish": "¿Estás seguro de que deseas publicar esto inmediatamente?",
+      "postPublished": "¡Publicación exitosa!",
+      "publishFailed": "Error al publicar",
+      "loadFailed": "Error al cargar publicaciones",
+      "mustProvideContent": "Debe proporcionar contenido de texto o multimedia",
+      "selectNetwork": "Debe seleccionar al menos una red social",
+      "scheduled": "¡Publicación Programada!",
+      "draftCreated": "¡Borrador Creado!",
+      "createError": "Error al crear la publicación"
+    },
+    "tooltips": {
+      "publishNow": "Publicar Ahora",
+      "image": "Imagen",
+      "video": "Video"
+    }
+  },
+  "navigation": {
+    "dashboard": "Panel",
+    "users": "Usuarios",
+    "portfolio": "Portafolio",
+    "agenda": "Agenda",
+    "website": "Sitio Web"
+  },
+  "calculatorProducts": {
+    "title": "Calculadora",
+    "subtitle": "Administra categorías, opciones y precios para la calculadora del sitio web",
+    "tabs": {
+      "categories": "Categorías",
+      "options": "Opciones",
+      "pricing": "Precios",
+      "mainProducts": "Productos Principales"
+    },
+    "category": {
+      "name": "Nombre",
+      "slug": "Slug",
+      "description": "Descripción",
+      "icon": "Ícono",
+      "portionType": "Tipo de Porción",
+      "minPortions": "Mín Porciones",
+      "maxPortions": "Máx Porciones",
+      "fixedOptions": "Opciones Fijas",
+      "sortOrder": "Orden"
+    },
+    "option": {
+      "name": "Nombre",
+      "slug": "Slug",
+      "type": "Tipo",
+      "priceModifier": "Modificador de Precio",
+      "isPercentage": "Es Porcentaje",
+      "conditions": "Condiciones",
+      "sortOrder": "Orden"
+    },
+    "pricing": {
+      "basePrice": "Precio Base",
+      "pricePerPortion": "Precio por Porción",
+      "currency": "Moneda"
+    },
+    "portionTypes": {
+      "fixed": "Fijo",
+      "range": "Rango",
+      "unit": "Unidad"
+    },
+    "optionTypes": {
+      "FLAVOR": "Sabor",
+      "TYPE": "Tipo",
+      "BASE": "Base",
+      "FILLING": "Relleno",
+      "COVERING": "Cobertura",
+      "PRODUCT": "Producto"
+    },
+    "mainProducts": {
+      "title": "Opciones de Productos Principales",
+      "description": "Administra las opciones de productos principales y sus personalizaciones. Marca opciones como productos principales en la pestaña Opciones.",
+      "isMainProduct": "Producto Principal",
+      "customizations": "Personalizaciones",
+      "selectCustomizations": "Seleccionar Personalizaciones",
+      "noCustomizations": "Sin personalizaciones asignadas",
+      "assignedCustomizations": "Personalizaciones Asignadas",
+      "availableCustomizations": "Personalizaciones Disponibles",
+      "noAvailableCustomizations": "No hay opciones disponibles como personalizaciones",
+      "manageCustomizations": "Administrar Personalizaciones",
+      "noMainProducts": "No se encontraron productos principales",
+      "noMainProductsHint": "Marca opciones como 'Producto Principal' en la pestaña Opciones para verlas aquí",
+      "removeMainProduct": "Quitar Estado de Producto Principal",
+      "removeMainProductTitle": "Quitar Estado de Producto Principal",
+      "removeMainProductMessage": "Esto eliminará el estado de producto principal y todas las personalizaciones asociadas. ¿Estás seguro?"
+    }
+  },
+  "dashboard": {
+    "title": "Panel de Control",
+    "nextEvent": "Próximo Evento",
+    "today": "¡Hoy!",
+    "tomorrow": "Mañana",
+    "daysUntil": "En {{count}} días",
+    "noEventsThisMonth": "No hay eventos próximos este mes",
+    "viewAgenda": "Ver Agenda"
+  },
+  "notifications": {
+    "title": "Notificaciones",
+    "enableReminders": "Activar recordatorios de eventos",
+    "description": "Recibe recordatorios 1 semana, 3 días y 6 horas antes de los eventos",
+    "blocked": "Las notificaciones están bloqueadas. Actívalas en la configuración del navegador.",
+    "subscribed": "Notificaciones activadas",
+    "unsubscribed": "Notificaciones desactivadas",
+    "permissionDenied": "Permiso de notificaciones denegado",
+    "testSent": "Notificación de prueba enviada",
+    "testFailed": "Error al enviar notificación de prueba",
+    "sendTest": "Enviar Notificación de Prueba"
+  },
+  "agenda": {
+    "title": "Agenda",
+    "details": "Detalles del Evento",
+    "edit": "Editar Evento",
+    "add": "Agregar Evento",
+    "uploadFile": "Subir Archivo",
+    "attachments": "Archivos Adjuntos",
+    "description": "Descripción",
+    "confirmDelete": "Eliminar Evento",
+    "deleteMessage": "¿Estás seguro de que deseas eliminar este evento? Esta acción no se puede deshacer.",
+    "createSuccess": "Evento creado exitosamente",
+    "updateSuccess": "Evento actualizado exitosamente",
+    "deleteSuccess": "Evento eliminado exitosamente",
+    "itemDeleteSuccess": "Archivo eliminado exitosamente",
+    "saveError": "Error al guardar el evento",
+    "deleteError": "Error al eliminar",
+    "loadError": "Error al cargar la agenda",
+    "views": {
+      "day": "Día",
+      "week": "Semana",
+      "month": "Mes"
+    }
+  },
+  "ingredients": {
+    "title": "Gestión de Ingredientes",
+    "entity": "Ingrediente",
+    "subtitle": "Administra tus ingredientes y unidades de medida",
+    "tab": {
+      "ingredients": "Ingredientes",
+      "metrics": "Unidades (Métricas)",
+      "brands": "Marcas"
+    },
+    "table": {
+      "name": "Nombre",
+      "price": "Precio",
+      "metric": "Unidad"
+    },
+    "form": {
+      "name": "Nombre del Ingrediente",
+      "price": "Precio por Unidad",
+      "metric": "Unidad de Medida del Ingrediente",
+      "brand": "Marca",
+      "isPackagePrice": "Calcular precio por tipo de presentación",
+      "packagePrice": "Precio del Paquete",
+      "packageQty": "Cantidad del Paquete",
+      "packageMetric": "Unidad de Medida del Paquete",
+      "calculating": "Calculando precio...",
+      "conversionFailed": "La conversión falló. Por favor ingrese el precio manualmente."
+    }
+  },
+  "brands": {
+    "title": "Marcas",
+    "entity": "Marca",
+    "table": {
+      "name": "Nombre"
+    },
+    "form": {
+      "name": "Nombre de la Marca"
+    }
+  },
+  "metrics": {
+    "title": "Unidades de Medida",
+    "entity": "Unidad",
+    "table": {
+      "title": "Título",
+      "abbrv": "Abreviatura"
+    },
+    "form": {
+      "title": "Nombre de la Unidad",
+      "abbrv": "Abreviatura (ej. kg)"
+    }
+  },
+  "validation": {
+    "required": "Este campo es requerido",
+    "minValue": "El valor debe ser al menos {{min}}"
+  },
+  "recipes": {
+    "title": "Recetas",
+    "subtitle": "Administra tus recetas y sus ingredientes",
+    "create": "Crear Receta",
+    "edit": "Editar Receta",
+    "details": "Detalles de Receta",
+    "table": {
+      "title": "Título",
+      "itemsCount": "Ítems",
+      "createdAt": "Fecha Creación"
+    },
+    "form": {
+      "title": "Nombre de la Receta",
+      "servings": "Porciones",
+      "items": "Ítems de la Receta",
+      "addItem": "Agregar Ítem",
+      "removeItem": "Remover",
+      "name": "Nombre del Ítem",
+      "metric": "Unidad",
+      "qty": "Cantidad",
+      "price": "Precio",
+      "ingredient": "Ingrediente Vinculado (Opcional)"
+    },
+    "messages": {
+      "createSuccess": "Receta creada exitosamente",
+      "updateSuccess": "Receta actualizada exitosamente",
+      "deleteSuccess": "Receta eliminada exitosamete",
+      "deleteConfirm": "¿Estás seguro de que deseas eliminar esta receta?",
+      "noRecipes": "No se encontraron recetas."
+    }
+  },
+  "calculatorParams": {
+    "title": "Configuración de Calculadora",
+    "gasPricePerLt": "Precio de Gasolina por Litro",
+    "averageKmPerLitre": "Num de Kms se recorre por Litro",
+    "bakerPayPerHour": "Pago Panadero por Hora",
+    "driverPayPerHour": "Pago Conductor por Hora",
+    "waterPricePerLitre": "Precio del Agua por Litro",
+    "bakePricePerMin": "Precio de Horneado (min)",
+    "crFee": "CR Fee",
+    "businessName": "Nombre del Negocio",
+    "location": "Ubicación",
+    "phone": "Número de Teléfono"
+  },
+  "quotations": {
+    "title": "Cotizaciones",
+    "subtitle": "Administra tus cotizaciones y cálculos de costos",
+    "entity": "Cotización",
+    "create": "Crear Cotización",
+    "edit": "Editar Cotización",
+    "noItems": "No hay ítems agregados. Haz clic en 'Agregar Ítem' para comenzar.",
+    "table": {
+      "description": "Descripción",
+      "client": "Cliente",
+      "items": "Ítems",
+      "total": "Total",
+      "createdAt": "Creado",
+      "type": "Tipo",
+      "name": "Nombre",
+      "qty": "Cant",
+      "metric": "Unidad",
+      "unitPrice": "Precio Unit.",
+      "subtotal": "Subtotal"
+    },
+    "form": {
+      "details": "Detalles de Cotización",
+      "description": "Descripción",
+      "client": "Cliente",
+      "taxRate": "IVA %",
+      "profitMargin": "Ganancia %",
+      "items": "Ítems",
+      "addItem": "Agregar Ítem",
+      "itemType": "Tipo de Ítem",
+      "itemName": "Nombre del Ítem",
+      "selectRecipe": "Seleccionar Receta",
+      "selectIngredient": "Seleccionar Ingrediente",
+      "addVariableCost": "Agregar Costo Variable",
+      "addCustomItem": "Agregar Ítem Personalizado"
+    },
+    "itemTypes": {
+      "RECIPE": "Receta",
+      "INGREDIENT": "Ingrediente",
+      "CUSTOM": "Personalizado",
+      "WATER": "Gasto de Agua",
+      "BAKE_TIME": "Tiempo de Horneado",
+      "LABOR": "Mano de Obra",
+      "DELIVERY": "Express"
+    },
+    "variableCosts": {
+      "bakerPay": "Pago Panadero",
+      "driverPay": "Pago Conductor",
+      "delivery": "Express",
+      "bakeTime": "Tiempo de Horneado",
+      "water": "Agua"
+    },
+    "metrics": {
+      "unit": "unidad",
+      "hours": "horas",
+      "minutes": "min",
+      "liters": "litros"
+    },
+    "totals": {
+      "subtotal": "Subtotal",
+      "tax": "Impuesto",
+      "profit": "Ganancia",
+      "total": "Total"
+    },
+    "noRows": "No se encontraron cotizaciones",
+    "errors": {
+      "noItems": "Por favor agrega al menos un ítem"
+    }
+  },
+  "clients": {
+    "title": "Clientes",
+    "subtitle": "Administra tus clientes",
+    "entity": "Cliente",
+    "table": {
+      "name": "Nombre",
+      "lastname": "Apellido",
+      "phone": "Teléfono",
+      "email": "Correo"
+    },
+    "form": {
+      "name": "Nombre",
+      "lastname": "Apellido",
+      "phone": "Teléfono",
+      "email": "Correo"
+    }
+  },
+  "webContent": {
+    "title": "Contenido del Sitio",
+    "subtitle": "Administra el contenido y traducciones de tu sitio web",
+    "translatableContent": "Contenido de Texto",
+    "mediaContent": "Multimedia y URLs",
+    "preview": "Vista Previa",
+    "tabs": {
+      "hero": "Sección Principal",
+      "home": "Tarjetas de Navegación",
+      "topCakes": "Top Pasteles",
+      "about": "Nosotros",
+      "footer": "Pie de Página"
+    },
+    "about": {
+      "addSection": "Agregar Sección",
+      "section": "Sección",
+      "alignment": "Alineación de Imagen",
+      "left": "Izquierda",
+      "right": "Derecha",
+      "sectionTitle": "Título de Sección",
+      "sectionContent": "Contenido de Sección",
+      "anchor": "Ancla (ID)",
+      "anchorHint": "Se usa para navegación interna (ej. #nuestra-historia)",
+      "noSections": "No hay secciones configuradas. Agrega una para comenzar."
+    },
+    "hero": {
+      "title": "Sección Principal",
+      "mainTitle": "Título Principal",
+      "subtitle": "Subtítulo",
+      "video": "Video de Fondo",
+      "uploadVideo": "Subir Video",
+      "videoHint": "Sube un archivo de video (máx 100MB). Dejar vacío para mostrar imagen en lugar de video.",
+      "videoUploaded": "Video subido exitosamente",
+      "videoRemoved": "Video eliminado",
+      "videoUploadError": "Error al subir el video",
+      "videoRemoveError": "Error al eliminar el video",
+      "invalidVideoType": "Por favor selecciona un archivo de video",
+      "videoTooLarge": "El video debe ser menor a 100MB",
+      "heroImage": "Imagen Principal",
+      "uploadImage": "Subir Imagen",
+      "imageHint": "Sube un archivo de imagen (máx 10MB)",
+      "imageUploaded": "Imagen subida exitosamente",
+      "imageRemoved": "Imagen eliminada",
+      "imageUploadError": "Error al subir la imagen",
+      "imageRemoveError": "Error al eliminar la imagen",
+      "invalidImageType": "Por favor selecciona un archivo de imagen",
+      "imageTooLarge": "La imagen debe ser menor a 10MB",
+      "backgroundImage": "Imagen de Fondo",
+      "buttons": "Botones de Acción",
+      "addButton": "Agregar Botón",
+      "buttonText": "Texto del Botón",
+      "buttonUrl": "URL del Botón",
+      "buttonVariant": "Estilo",
+      "variants": {
+        "primary": "Primario",
+        "outline": "Contorno"
+      }
+    },
+    "home": {
+      "buttons": {
+        "title": "Botones del Hero",
+        "cta_order": "Botón Primario (Hacer Pedido)",
+        "cta_menu": "Botón Secundario (Ver Menú)"
+      },
+      "actions": {
+        "title": "Título de Acciones",
+        "subtitle": "Subtítulo de Acciones"
+      },
+      "social": {
+        "title": "Título Social",
+        "description": "Descripción Social"
+      },
+      "portfolio": {
+        "title": "Título Portafolio",
+        "description": "Descripción Portafolio",
+        "cta": "Botón Portafolio"
+      },
+      "calculator": {
+        "title": "Título Calculadora",
+        "description": "Descripción Calculadora",
+        "cta": "Botón Calculadora"
+      }
+    },
+    "topCakes": {
+      "title": "Sección Top Pasteles",
+      "badge": "Texto del Badge",
+      "sectionTitle": "Título de Sección",
+      "sectionSubtitle": "Subtítulo de Sección",
+      "cakesList": "Ítems Destacados",
+      "noTopItems": "No hay ítems marcados como 'Top' en el portafolio. Ve a Portafolio para marcar ítems como productos destacados.",
+      "readOnlyInfo": "Esta sección muestra los ítems del portafolio marcados como 'Top' y 'Activos'. Para administrar qué ítems aparecen aquí, ve a Portafolio y activa el ícono de estrella en los ítems.",
+      "manageInPortfolio": "Administrar ítems destacados en Portafolio > Ítems"
+    },
+    "footer": {
+      "title": "Pie de Página",
+      "tagline": "Eslogan",
+      "brandDescription": "Descripción de Marca",
+      "columns": "Columnas de Navegación",
+      "addColumn": "Agregar Columna",
+      "columnTitle": "Título de Columna",
+      "links": "Enlaces",
+      "addLink": "Agregar Enlace",
+      "linkLabel": "Etiqueta",
+      "linkUrl": "URL",
+      "isExternal": "Abrir en nueva pestaña",
+      "noLinks": "Sin enlaces. Haz clic en 'Agregar Enlace' para añadir uno.",
+      "noColumns": "Sin columnas. Haz clic en 'Agregar Columna' para comenzar.",
+      "socialLinks": "Redes Sociales",
+      "addSocial": "Agregar Red Social",
+      "platform": "Plataforma",
+      "socialUrl": "URL del Perfil",
+      "noSocials": "Sin redes sociales. Haz clic en 'Agregar Red Social' para añadir una."
+    }
+  },
+  "richEditor": {
+    "bold": "Negrita",
+    "italic": "Cursiva",
+    "bulletList": "Lista con Viñetas",
+    "orderedList": "Lista Numerada"
+  },
+  "accounting": {
+    "title": "Ventas y Facturación",
+    "subtitle": "Administra tus facturas y reportes de ventas",
+    "create": "Crear Factura",
+    "edit": "Editar Factura",
+    "createFromQuotation": "Facturar Cotización",
+    "noRows": "No se encontraron facturas",
+    "table": {
+      "serialNumber": "N° Factura",
+      "included": "Incl.",
+      "description": "Descripción",
+      "client": "Cliente",
+      "total": "Total",
+      "paymentMethod": "Pago",
+      "source": "Canal",
+      "createdAt": "Fecha",
+      "name": "Ítem",
+      "qty": "Cant",
+      "unitPrice": "Precio Unit.",
+      "subtotal": "Subtotal"
+    },
+    "form": {
+      "details": "Detalles de Factura",
+      "description": "Descripción",
+      "client": "Cliente",
+      "paymentMethod": "Método de Pago",
+      "source": "Canal de Venta",
+      "linkedQuotation": "Cotización Vinculada",
+      "items": "Detalle de Venta",
+      "print": "Imprimir Factura",
+      "customPrint": "Configurar Impresión",
+      "printSetup": "Configurar Unión de Ítems",
+      "mergeSelected": "Unir Seleccionados",
+      "mergedName": "Nombre del Grupo",
+      "unmerge": "Desunir",
+      "preview": "Vista Previa de Impresión",
+      "thanks": "¡Gracias por su compra!"
+    },
+    "paymentMethods": {
+      "CASH": "Efectivo",
+      "CREDIT_CARD": "Tarjeta",
+      "SINPE": "SINPE Móvil",
+      "PAYPAL": "PayPal"
+    },
+    "sources": {
+      "FACEBOOK": "Facebook",
+      "INSTAGRAM": "Instagram",
+      "TIKTOK": "TikTok",
+      "WEBSITE": "Sitio Web",
+      "DASHBOARD": "Directo"
+    },
+    "totals": {
+      "summary": "Resumen de Totales",
+      "subtotal": "Subtotal",
+      "tax": "Impuestos",
+      "profit": "Utilidad",
+      "total": "Total Facturado"
+    },
+    "cards": {
+      "totalSales": "Ventas Totales",
+      "byPaymentMethod": "Ventas por Método de Pago"
+    }
+  }
+}

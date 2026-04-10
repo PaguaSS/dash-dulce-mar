@@ -24,7 +24,7 @@ import BackButton from '../../components/common/BackButton';
 
 const schema = z.object({
   title: z.string().min(1, 'Title is required').max(150),
-  description: z.string().max(250).optional(),
+  description: z.string().max(250).nullable().optional(),
   active: z.boolean(),
   isTop: z.boolean(),
   categoryId: z.uuid('Parent Category ID is required'),
@@ -70,7 +70,7 @@ const ItemForm: React.FC = () => {
         .then((data) => {
           reset({
             title: data.title,
-            description: data.description,
+            description: data.description || '',
             active: data.active,
             isTop: data.isTop,
             categoryId: data.categoryId,
